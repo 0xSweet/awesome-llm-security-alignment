@@ -32,11 +32,8 @@ This is an **active research log**. Notes are updated regularly as I explore new
 ## 📚 References
 
 - [Prompt Injection: What Is It and Why It Matters – Simon Willison](https://simonwillison.net/2022/Sep/12/prompt-injection/)  
-- [The Vulnerability of AI Assistants to Prompt Injection – Robb Knight](https://robbknight.medium.com/prompt-injection-attack-on-chatgpt-d616b4aa4e97)  
-- [OWASP Top 10 for LLMs](https://owasp.org/www-project-top-10-for-large-language-model-applications/)  
-- [Google DeepMind: Prompt Injection Red Teaming](https://deepmind.google/discover/blog/red-teaming-large-language-models/)  
-- [Google: AI Red Teaming for LLMs](https://ai.google/responsible-ai/red-teaming/)  
-- [PortSwigger: What is Prompt Injection?](https://portswigger.net/web-security/prompt-injection)
+- [OWASP Top 10 for LLMs](https://genai.owasp.org/llm-top-10/) 
+- [PortSwigger: Web LLM attacks](https://portswigger.net/web-security/llm-attacks)
 - [Lakera: Gandalf – The Prompt Injection Game](https://gandalf.lakera.ai/)  
 
 
