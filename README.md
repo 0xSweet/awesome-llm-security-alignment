@@ -31,11 +31,12 @@ This is an **active research log**. Notes are updated regularly as I explore new
 
 ## 📚 References
 
-- [Prompt Injection: What Is It and Why It Matters – Simon Willison](https://simonwillison.net/2022/Sep/12/prompt-injection/)  
 - [OWASP Top 10 for LLMs](https://genai.owasp.org/llm-top-10/) 
+- [OpenAI: GPT-4 System Card (PDF)](https://cdn.openai.com/papers/gpt-4-system-card.pdf)
+- [Anthropic: Challenges in Red Teaming AI Systems](https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems)
+- [Prompt Injection: What Is It and Why It Matters – Simon Willison](https://simonwillison.net/2022/Sep/12/prompt-injection/)
+- [Lakera: Gandalf – The Prompt Injection Game](https://gandalf.lakera.ai/)
 - [PortSwigger: Web LLM attacks](https://portswigger.net/web-security/llm-attacks)
-- [Lakera: Gandalf – The Prompt Injection Game](https://gandalf.lakera.ai/)  
-
 
 ---
 
