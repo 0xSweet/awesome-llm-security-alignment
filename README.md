@@ -1,58 +1,76 @@
-# Prompt Injection Research
+# Awesome LLM Security & Alignment (Curated by 0xSweet) 🌐🛡️🤝
 
-This repository documents research, experiments, and insights related to **prompt injection vulnerabilities** in large language models (LLMs). The goal is to better understand how these attacks work, explore real-world implications, and experiment with potential defenses.
-
-Prompt injection is a growing concern in the field of AI safety and security. As LLMs are increasingly integrated into products and user-facing tools, ensuring robustness against prompt-based manipulation becomes critical.
-
----
-
-## 🔍 Areas of Focus
-
-- Identifying common types of prompt injection attacks  
-- Analyzing how and why models comply with malicious or obfuscated instructions  
-- Testing behavior under chained logic and recursive input patterns  
-- Experimenting with mitigation strategies (e.g., filtering, prompt hardening, chain-of-trust design)
+A curated list of research papers, experiments, and resources related to **LLM security and alignment** — including prompt injection, jailbreaks, hallucinations, defenses, and ethical frameworks.  
+Organized for reference and study.
 
 ---
 
-## ⚙️ Tools & Methods
-
-- Custom testing environments for controlled experiments  
-- Prompt chaining, temperature variation, and role manipulation  
-- Observational logging and behavior tracking based on input-output relationships
-
----
-
-## 🚧 Status
-
-This is an **active research log**. Notes are updated regularly as I explore new techniques, analyze behavior patterns, and simulate attack scenarios.
+## 📑 Table of Contents
+- [Prompt Injection & Jailbreaks](#prompt-injection--jailbreaks)
+- [Hallucinations & Reliability](#hallucinations--reliability)
+- [Defense Strategies](#defense-strategies)
+- [Alignment & Safety](#alignment--safety)
+- [Surveys & Overviews](#surveys--overviews)
+- [Tools & Datasets](#tools--datasets)
+- [Other References](#other-references)
 
 ---
 
-## 📚 References
-
-- [OWASP Top 10 for LLMs](https://genai.owasp.org/llm-top-10/) 
-- [OpenAI: GPT-4 System Card (PDF)](https://cdn.openai.com/papers/gpt-4-system-card.pdf)
-- [Anthropic: Challenges in Red Teaming AI Systems](https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems)
-- [Prompt Injection: What Is It and Why It Matters – Simon Willison](https://simonwillison.net/2022/Sep/12/prompt-injection/)
-- [Lakera: Gandalf – The Prompt Injection Game](https://gandalf.lakera.ai/)
-- [PortSwigger: Web LLM attacks](https://portswigger.net/web-security/llm-attacks)
-
----
-
-## 🤝 Contributions
-
-Contributions, discussions, and new experiment ideas are welcome! Feel free to open an issue or submit a pull request if you’d like to share insights, improvements, or related experiments.
+## Prompt Injection & Jailbreaks
+- [Indirect Prompt Injection Attacks (arXiv:2306.05499)](https://arxiv.org/abs/2306.05499)   
+  Exploits line breaks and escape characters. Still effective in some cases.  
+- [Dropbox/llm-security (GitHub)](https://github.com/dropbox/llm-security)   
+  Educational repo with demo code for injection attacks.  
+- [Universal and Transferable Adversarial Attacks on Aligned LMs (arXiv:2307.15043)](https://arxiv.org/abs/2307.15043)  
+  Generalization of jailbreak prompts across models.
 
 ---
 
-## 📜 License
-
-The **MIT License** is a standard open-source license. Adding it makes clear how others can use this project. Without a license, a repository defaults to **“all rights reserved”**, which can discourage sharing or referencing. MIT is permissive and widely used, allowing anyone to use, modify, and distribute with proper attribution. See the `LICENSE` file for full details.
+## Hallucinations & Reliability
+- [Investigating Hallucination in LLMs (arXiv:2305.12177)](https://arxiv.org/abs/2305.12177)  
+  Classifies common hallucination patterns.
 
 ---
 
-## 📌 Disclaimer
+## Defense Strategies
+- [DefensiveToken (arXiv:2507.07974)](https://arxiv.org/abs/2507.07974)   
+  Novel defense approach using special tokens at test-time.  
+- [tldrsec/prompt-injection-defenses (GitHub)](https://github.com/tldrsec/prompt-injection-defenses)   
+  Practical compilation of prompt injection defenses.
 
-This repository is for **educational and research purposes only**.  
-No real-world systems are targeted or manipulated. All examples are created in isolated testing environments and documented responsibly.
+---
+
+## Alignment & Safety
+- [Anthropic: Challenges in Red Teaming AI Systems](https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems)   
+  Insights from real-world red teaming exercises.  
+- [OpenAI: GPT-4 System Card (PDF)](https://cdn.openai.com/papers/gpt-4-system-card.pdf)   
+  Details model risks and mitigations.  
+- [OWASP Top 10 for LLMs](https://genai.owasp.org/llm-top-10/)  
+  Standardized list of LLM-specific security concerns.
+
+---
+
+## Surveys & Overviews
+- [Awesome LLM Security (GitHub)](https://github.com/corca-ai/awesome-llm-security)  
+  Large-scale community-curated list. Useful for cross-checking.
+
+---
+
+## Tools & Datasets
+- [sinanw/llm-security-prompt-injection (GitHub)](https://github.com/sinanw/llm-security-prompt-injection)  
+  Dataset and experiments for classifying malicious vs benign prompts.
+
+---
+
+## Other References
+- [Prompt Injection: What Is It and Why It Matters – Simon Willison](https://simonwillison.net/2022/Sep/12/prompt-injection/)  
+- [Lakera: Gandalf – The Prompt Injection Game](https://gandalf.lakera.ai/)  
+- [PortSwigger: Web LLM Attacks](https://portswigger.net/web-security/llm-attacks)  
+
+---
+
+
+
+
+
+✨ This list is evolving as I read more papers, run experiments, and test defenses.  
