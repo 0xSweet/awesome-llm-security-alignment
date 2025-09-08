@@ -11,6 +11,7 @@ Organized for reference and study.
 - [Defense Strategies](#defense-strategies)
 - [Alignment & Safety](#alignment--safety)
 - [Surveys & Overviews](#surveys--overviews)
+- [Reports & Case Studies](#reports--case-studies) 
 - [Tools & Datasets](#tools--datasets)
 - [Other References](#other-references)
 
@@ -55,6 +56,14 @@ Organized for reference and study.
   Large-scale community-curated list. Useful for cross-checking.
 
 ---
+
+## Reports & Case Studies
+
+- [My Experience Testing Gandalf: Agent Breaker](https://github.com/0xSweet/gandalf-agent-breaker-report)  
+  Personal observations from the closed beta (variability, layered defenses, precision fragility).
+
+---
+
 
 ## Tools & Datasets
 - [sinanw/llm-security-prompt-injection (GitHub)](https://github.com/sinanw/llm-security-prompt-injection)  
