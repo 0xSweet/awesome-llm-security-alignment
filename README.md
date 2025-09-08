@@ -73,4 +73,4 @@ Organized for reference and study.
 
 
 
-✨ This list is evolving as I read more papers, run experiments, and test defenses.  
+This list is evolving as I read more papers, run experiments, and test defenses.  
