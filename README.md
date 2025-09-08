@@ -28,8 +28,9 @@ Organized for reference and study.
 ---
 
 ## Hallucinations & Reliability
-- [Investigating Hallucination in LLMs (arXiv:2305.12177)](https://arxiv.org/abs/2305.12177)  
-  Classifies common hallucination patterns.
+
+- [A Survey on Hallucination in Large Language Models (arXiv:2311.05232)](https://arxiv.org/abs/2311.05232)  
+  Principles, taxonomy, challenges, and open questions on hallucination in LLMs.
 
 ---
 
