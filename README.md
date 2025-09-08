@@ -1,4 +1,4 @@
-# Awesome LLM Security & Alignment (Curated by 0xSweet) 🌐🛡️🤝
+# Awesome LLM Security & Alignment (Curated by 0xSweet) 
 
 A curated list of research papers, experiments, and resources related to **LLM security and alignment** — including prompt injection, jailbreaks, hallucinations, defenses, and ethical frameworks.  
 Organized for reference and study.
