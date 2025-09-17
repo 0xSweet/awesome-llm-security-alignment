@@ -1,7 +1,8 @@
-# Awesome LLM Security & Alignment (Curated by 0xSweet) 
+# Awesome LLM Security & Alignment (Curated by 0xSweet) [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of research papers, experiments, and resources related to **LLM security and alignment** — including prompt injection, jailbreaks, hallucinations, defenses, and ethical frameworks.  
 Organized for reference and study.
+
 
 ---
 
@@ -81,6 +82,8 @@ Organized for reference and study.
 
 
 
-
-
 This list is evolving as I read more papers, run experiments, and test defenses.  
+
+<p align="center">
+Curated by 0xSweet — MIT License
+</p>
