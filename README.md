@@ -172,7 +172,7 @@ Organized for reference and study.
 
 ---
 
-**Contributors:** 0xSweet and community  
-**License:** CC BY 4.0  
+**Maintainer:** 0xSweet  
+**License:** CC BY 4.0
 
-This list evolves as new research emerges. Contributions welcome via pull requests.
+
