@@ -3,7 +3,7 @@
 A curated list of research papers, experiments, and resources related to **LLM security and alignment** — including prompt injection, jailbreaks, hallucinations, defenses, governance, and ethical frameworks.  
 Organized for reference and study.
 
-**Last Updated:** 2025-09-17
+**Last Updated:** 2025-10-22
 
 ---
 
