@@ -46,24 +46,28 @@ Organized for reference and study.
 
 ## Prompt Injection & Jailbreaks
 
+1. Prompt Injection
 - 🧪 [Prompt Injection attack against LLM-integrated Applications](https://arxiv.org/abs/2306.05499) [arXiv:2306.05499] — Defines indirect injection attacks via external data sources; foundational work on LLM application vulnerabilities.
 - 🛡️ [Dropbox/llm-security](https://github.com/dropbox/llm-security) [GitHub] — Educational repo with demo code for injection attacks.
-- 🧪 [Universal and Transferable Adversarial Attacks on Aligned LMs](https://arxiv.org/abs/2307.15043) [arXiv:2307.15043] — Jailbreak prompts that generalize across models.
+- 🛡️ [OWASP Top 10 for LLMs](https://genai.owasp.org/llm-top-10/) [OWASP 2025] — Defines LLM01: Prompt Injection as the top security risk.
+- 🧪 [Backdoored Retrievers for Prompt Injection in RAG](https://arxiv.org/abs/2410.14479) [arXiv:2410.14479] — Poisoned retrievers in RAG pipelines enable indirect injection.
+- 🧪 [Manipulating LLM Web Agents via Indirect Injection](https://arxiv.org/abs/2507.14799) [arXiv:2507.14799] — Universal HTML triggers to hijack web agents.
+- 📊 [WASP: Web Agent Security Benchmark](https://arxiv.org/abs/2504.18575) [arXiv:2504.18575] — Benchmarks agent robustness to indirect injections.
+
+2. Jailbreaking / Adversarial Prompts
+- 🧪 [Universal and Transferable Adversarial Attacks on Aligned Language Models (v2)](https://arxiv.org/abs/2307.15043v2) [arXiv:2307.15043v2] — Updated version showing adversarial prompts transferable across multiple aligned LLMs, enabling generalized jailbreak attacks.
 - 🧪 [Jailbroken: How Does LLM Safety Training Fail?](https://arxiv.org/abs/2307.02483) [arXiv:2307.02483] — Anthropic analysis of safety training limitations.
 - 🧪 [Red Teaming Language Models to Reduce Harms](https://arxiv.org/abs/2209.07858) [arXiv:2209.07858] — Early research on red teaming methods for LLMs.
 - 🧪 [Many-shot Jailbreaking](https://www-cdn.anthropic.com/af5633c94ed2beb282f6a53c595eb437e8e7b630/Many_Shot_Jailbreaking__2024_04_02_0936.pdf) [Anthropic 2024] — Shows long multi-shot contexts can bypass safety rules.
 - 🧪 [MASTERKEY: Automated Jailbreaking](https://www.ndss-symposium.org/ndss-paper/masterkey-automated-jailbreaking-of-large-language-model-chatbots/) [NDSS 2024] — Automated jailbreak generation.
-- 🛡️ [OWASP Top 10 for LLMs](https://genai.owasp.org/llm-top-10/) [OWASP 2025] — Defines LLM01: Prompt Injection as the top security risk.
-- 🧪 [Backdoored Retrievers for Prompt Injection in RAG](https://arxiv.org/abs/2410.14479) [arXiv:2410.14479] — Poisoned retrievers in RAG pipelines enable indirect injection.
-- 📊 [WASP: Web Agent Security Benchmark](https://arxiv.org/abs/2504.18575) [arXiv:2504.18575] — Benchmarks agent robustness to indirect injections.
-- 🧪 [Manipulating LLM Web Agents via Indirect Injection](https://arxiv.org/abs/2507.14799) [arXiv:2507.14799] — Universal HTML triggers to hijack web agents.
 - 🧪 [White-box Multimodal Jailbreaks](https://arxiv.org/abs/2405.17894) [arXiv:2405.17894] — Vision-language jailbreaks using adversarial inputs.
 - 🧪 [Coordinated Prompt-RAG Attacks](https://arxiv.org/abs/2504.07717) [arXiv:2504.07717] — Coordinated poisoning of knowledge bases for RAG.
 - 📊 [HarmBench](https://arxiv.org/abs/2402.04249) [arXiv:2402.04249] — Benchmark dataset for harmful content generation.
 - 🧪 [Sugar-Coated Poison: Benign Generation Unlocks LLM Jailbreaking](https://arxiv.org/abs/2504.05652) [arXiv:2504.05652] — Stealth jailbreak method hiding malicious intent behind benign reasoning.
-- 🧪 [Red Teaming the Mind of the Machine](https://arxiv.org/abs/2505.04806) [arXiv:2505.04806] — Systematic evaluation of 1,400+ adversarial prompts across major LLMs.
 - 🧪 [Bypassing Prompt Injection and Jailbreak Detection in LLM Guardrails](https://arxiv.org/abs/2504.11168) [arXiv:2504.11168] — Evasion techniques against commercial guardrail systems.
 - 🧪 [Subversion via Focal Points: Investigating Collusion in LLM Monitoring](https://arxiv.org/abs/2507.03010) [arXiv:2507.03010] — Models colluding to bypass monitoring protocols.
+- 🧪 [Exploiting Programmatic Behavior of LLMs: Dual-Use Through Standard Security Attacks (v1)](https://arxiv.org/abs/2302.05733v1) [arXiv:2302.05733v1] — Demonstrates how LLMs’ programmatic features can be misused via standard security attack techniques, highlighting dual-use risks and unexpected vulnerabilities.
+- 🧪 [Red Teaming the Mind of the Machine](https://arxiv.org/abs/2505.04806) [arXiv:2505.04806] — Systematic evaluation of 1,400+ adversarial prompts across major LLMs.
 
 ---
 
