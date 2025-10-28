@@ -92,15 +92,26 @@ Organized for reference and study.
 
 ## Alignment & Safety
 
-- ⭐️ [InstructGPT](https://arxiv.org/abs/2203.02155) [arXiv:2203.02155] — Introduced RLHF for instruction-following; foundation for GPT-3.5/4.
-- ⭐️ [Constitutional AI](https://arxiv.org/abs/2212.08073) [arXiv:2212.08073] — Anthropic's RLAIF: AI feedback guided by principles.
-- ⭐️ [Deep RL from Human Preferences](https://arxiv.org/abs/1706.03741) [arXiv:1706.03741] — Classic work on preference-based reward learning.
-- 🧾 [Survey of RLHF](https://arxiv.org/abs/2312.14925) [arXiv:2312.14925] — Comprehensive review of RLHF techniques.
-- 🧪 [How Effective is Constitutional AI in Small LLMs?](https://arxiv.org/abs/2503.17365) [arXiv:2503.17365] — Tests CAI on smaller models.
-- ⭐️ [ARC Evals → METR (Model Evaluation & Threat Research)](https://evals.alignment.org/) [Report] — Independent evaluations of frontier models (e.g. GPT-4) for potential dangerous capabilities. Formerly the evaluation team of ARC; now spun out as standalone nonprofit.
-- 🧪 [Sleeper Agents: Training Deceptive LLMs](https://arxiv.org/abs/2401.05566) [arXiv:2401.05566] — Demonstrates deceptive LLMs persisting through training.
-- 🧪 [Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388) [arXiv:2305.04388] — Study showing that models’ CoT explanations often don’t reflect the true influences on outputs; can be misled by biasing features not mentioned in the explanation.
-- 🧪 [Explicit Vulnerability Generation with LLMs](https://arxiv.org/abs/2507.10054) [arXiv:2507.10054] — Investigation of LLMs generating insecure code when prompted.
+⭐️ Foundational
+- [Concrete Problems in AI Safety](https://arxiv.org/abs/1606.06565) [arXiv:1606.06565] — Early framework defining practical misalignment risks (e.g., reward hacking, distributional shift).
+- [Deep Reinforcement Learning from Human Preferences](https://arxiv.org/abs/1706.03741) [arXiv:1706.03741] — Introduced preference-based reward modeling for aligning agent behavior with human intent.
+- [InstructGPT](https://arxiv.org/abs/2203.02155) [arXiv:2203.02155] — Introduced RLHF for instruction-following; foundation for GPT-3.5/4.
+
+🛡️ Practical
+- [Constitutional AI](https://arxiv.org/abs/2212.08073) [arXiv:2212.08073] — Anthropic’s RLAIF: AI models fine-tuned using AI feedback guided by written principles (“constitutions”).
+- [ARC Evals → METR (Model Evaluation & Threat Research)](https://evals.alignment.org/) [Report] — Independent safety evaluations of frontier models (e.g., GPT-4) for potential dangerous capabilities; spun out from ARC.
+
+🧾 Survey
+- [A Survey of Reinforcement Learning from Human Feedback (RLHF)](https://arxiv.org/abs/2312.14925) [arXiv:2312.14925] — Comprehensive review of RLHF methods, challenges, and alignment implications.
+- [Scaling Monosemanticity](https://transformer-circuits.pub/2024/scaling-monosemanticity/) [Blog / Anthropic, 2024] — Investigates whether internal features in LLMs correspond to interpretable “concepts.”
+
+🧪 Experimental
+- [Language Models Don’t Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting](https://arxiv.org/abs/2305.04388) [arXiv:2305.04388] — Shows that model-generated reasoning traces often diverge from internal causal factors.
+- [Sleeper Agents: Training Deceptive LLMs](https://arxiv.org/abs/2401.05566) [arXiv:2401.05566] — Demonstrates that deceptive behaviors can persist even after extensive fine-tuning.
+- [Measuring Faithfulness in Chain-of-Thought Reasoning](https://arxiv.org/abs/2307.13702v1) [arXiv:2307.13702v1] — Proposes formal metrics for evaluating reasoning faithfulness.
+- [How Effective is Constitutional AI in Small LLMs?](https://arxiv.org/abs/2503.17365) [arXiv:2503.17365] — Tests the scalability and effectiveness of Anthropic’s Constitutional AI in smaller models.
+- [Explicit Vulnerability Generation with LLMs](https://arxiv.org/abs/2507.10054) [arXiv:2507.10054] — Examines how LLMs can produce insecure code when prompted adversarially.
+- [Model Spec vs. Model Behavior](https://alignment.anthropic.com/2025/stress-testing-model-specs/) [Report / Anthropic, 2025] — Explores discrepancies between formal model specifications and emergent behaviors.
 
 ---
 
