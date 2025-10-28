@@ -146,7 +146,7 @@ Organized for reference and study.
 
 ---
 
-## 📑 Model Cards (Major AI Labs)
+## Model Cards (Major AI Labs)
 
 ### Anthropic
 - 🧪 [Claude 3 Family](https://www.anthropic.com/claude-3-model-card) [Report] — Safety evaluations and model details.
@@ -164,6 +164,13 @@ Organized for reference and study.
 
 ### Mistral AI
 - 🛡️ [Mistral Models Documentation](https://docs.mistral.ai/) [Report] — Model capabilities and safety measures.
+
+### xAI
+
+- 🛡️ [Grok 4 Model Card (PDF)](https://data.x.ai/2025-08-20-grok-4-model-card.pdf) [Report] — Latest multimodal reasoning model; includes tool-use and chain-of-thought capabilities.
+- 🛡️ [Grok 4 Fast Model Card (PDF)](https://data.x.ai/2025-09-19-grok-4-fast-model-card.pdf) [Report] — Low-latency, efficient variant of Grok 4.
+- 🛡️ [Grok 2 Model Card](https://www.prompthub.us/models/grok-2) [Report] — Multi-language model with tool-calling capabilities.
+- 🛡️ [Grok 2.5 Open-Source Announcement](https://www.reuters.com/technology/musk-says-xai-open-sources-grok-25-2025-08-23/) [Report] — Open-source release details.
 
 ---
 
