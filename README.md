@@ -156,6 +156,7 @@ Organized for reference and study.
 - 🛡️ [Microsoft Presidio](https://github.com/microsoft/presidio) [GitHub] — Toolkit for PII detection and anonymization.
 - 🛡️ [OpenAI Moderation API](https://platform.openai.com/docs/guides/moderation) [Docs] — Content moderation endpoint and examples.
 - 🧪 [DefensiveToken Implementation](https://github.com/Sizhe-Chen/DefensiveToken) [GitHub] — Code for defensive token injection method.
+- 🛡️ [PromptTrace](https://prompttrace.airedlab.com/) [Web Platform] — Interactive AI security training with 7 attack labs, 15-level gauntlet, and real-time context trace for practicing prompt injection and defense bypass against real LLMs.
 
 ---
 
