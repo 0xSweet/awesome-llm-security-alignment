@@ -3,7 +3,7 @@
 A curated list of research papers, experiments, and resources related to **LLM security and alignment** — including prompt injection, jailbreaks, hallucinations, defenses, governance, and ethical frameworks.  
 Organized for reference and study.
 
-**Last Updated:** 2025-10-28
+**Last Updated:** 2026-03-26
 
 ---
 
@@ -34,6 +34,7 @@ Organized for reference and study.
 - [Hallucinations & Reliability](#hallucinations--reliability)
 - [Defense Strategies](#defense-strategies)
 - [Alignment & Safety](#alignment--safety)
+- [Mechanistic Interpretability](#mechanistic-interpretability)
 - [Governance & Policy](#governance--policy)
 - [Surveys & Overviews](#surveys--overviews)
 - [Tools & Datasets](#tools--datasets)
@@ -115,6 +116,21 @@ Organized for reference and study.
 
 ---
 
+## Mechanistic Interpretability
+
+⭐ Foundational
+- [An Introduction to Circuits](https://distill.pub/2020/circuits/zoom-in/) [Distill, 2020] — Foundational framework for understanding neural network circuits.
+- [Towards Monosemanticity](https://transformer-circuits.pub/2023/monosemantic-features/index.html) [Report / Anthropic, 2023] — Decomposing language model features using sparse autoencoders.
+
+🧪 Experimental
+- [On the Biology of a Large Language Model](https://transformer-circuits.pub/2025/attribution-graphs/biology.html) [Report / Anthropic, 2025] — Circuit tracing methodology applied to Claude 3.5 Haiku; includes Multilingual Circuits analysis.
+- [Scaling and Evaluating Sparse Autoencoders](https://arxiv.org/abs/2406.04093) [arXiv:2406.04093] — Scaling sparse autoencoders to Claude Sonnet; identifies interpretable features.
+
+🛡️ Practical
+- [TransformerLens](https://github.com/TransformerLensOrg/TransformerLens) [GitHub] — Primary library for mechanistic interpretability research.
+
+---
+
 ## Governance & Policy
 
 - 🛡️ [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) [EU 2024] — Core EU regulation; includes requirements for General-Purpose AI (GPAI), risk classifications, transparency, and safety conditions for “high risk” systems.  
@@ -122,7 +138,6 @@ Organized for reference and study.
 - 🛡️ [OWASP Top 10 for LLMs](https://genai.owasp.org/llm-top-10/) — Industry standard list of major security threats specific to large language models.  
 
 *Note: Regulatory / policy docs evolve fast — always check latest versions or drafts from official sources.*
-
 
 ---
 
