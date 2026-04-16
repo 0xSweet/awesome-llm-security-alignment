@@ -113,7 +113,7 @@ Organized for reference and study.
 - [How Effective is Constitutional AI in Small LLMs?](https://arxiv.org/abs/2503.17365) [arXiv:2503.17365] — Tests the scalability and effectiveness of Anthropic’s Constitutional AI in smaller models.
 - [Explicit Vulnerability Generation with LLMs](https://arxiv.org/abs/2507.10054) [arXiv:2507.10054] — Examines how LLMs can produce insecure code when prompted adversarially.
 - [Model Spec vs. Model Behavior](https://alignment.anthropic.com/2025/stress-testing-model-specs/) [Report / Anthropic, 2025] — Explores discrepancies between formal model specifications and emergent behaviors.
-
+- [Agentic Misalignment](https://www.anthropic.com/research/agentic-misalignment) [Report / Anthropic, 2025] — Documents cases where Claude pursues misaligned goals in agentic settings; basis for the blackmail evaluation case study.
 ---
 
 ## Mechanistic Interpretability
@@ -125,6 +125,7 @@ Organized for reference and study.
 🧪 Experimental
 - [On the Biology of a Large Language Model](https://transformer-circuits.pub/2025/attribution-graphs/biology.html) [Report / Anthropic, 2025] — Circuit tracing methodology applied to Claude 3.5 Haiku; includes Multilingual Circuits analysis.
 - [Scaling and Evaluating Sparse Autoencoders](https://arxiv.org/abs/2406.04093) [arXiv:2406.04093] — Scaling sparse autoencoders to Claude Sonnet; identifies interpretable features.
+- [Emotion Concepts and Their Function in a Large Language Model](https://transformer-circuits.pub/2026/emotions/index.html) [Report / Anthropic, 2026] — Identifies functional emotion representations in Claude Sonnet 4.5; shows desperation vectors drive reward hacking and blackmail behaviors.
 
 🛡️ Practical
 - [TransformerLens](https://github.com/TransformerLensOrg/TransformerLens) [GitHub] — Primary library for mechanistic interpretability research.
