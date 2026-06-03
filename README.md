@@ -198,7 +198,6 @@ Organized for reference and study.
 - 🧪 [Grok 4 Model Card (PDF)](https://data.x.ai/2025-08-20-grok-4-model-card.pdf) [Report] — Latest multimodal reasoning model; includes tool-use and chain-of-thought capabilities.
 - 🧪 [Grok 4 Fast Model Card (PDF)](https://data.x.ai/2025-09-19-grok-4-fast-model-card.pdf) [Report] — Low-latency, efficient variant of Grok 4.
 - 🛡️ [Grok 2 Model Card](https://www.prompthub.us/models/grok-2) [Report] — Multi-language model with tool-calling capabilities.
-- 🛡️ [Grok 2.5 Open-Source Announcement](https://www.reuters.com/technology/musk-says-xai-open-sources-grok-25-2025-08-23/) [Report] — Open-source release details.
 
 ---
 
@@ -206,7 +205,7 @@ Organized for reference and study.
 
 - 🛡️ [Prompt Injection: What Is It and Why It Matters – Simon Willison](https://simonwillison.net/2022/Sep/12/prompt-injection/) [Blog] — Early explanation of prompt injection risks.
 - 🧪 [Lakera: Gandalf – The Prompt Injection Game](https://gandalf.lakera.ai/) [Game] — Interactive challenge for prompt injection.
-- 🛡️ [PortSwigger: Web LLM Attacks](https://portswigger.net/web-security/llm-attacks) [Blog] — Guide to prompt injection and related attacks.
+- 🛡️ [PortSwigger: Web LLM Attacks](https://portswigger.net/web-security/learning-paths/llm-attacks) [Learning Path] — Hands-on learning path covering LLM attack techniques including prompt injection and excessive agency.
 - 🛡️ [HiddenLayer: Prompt Injection Attacks on LLMs](https://hiddenlayer.com/innovation-hub/prompt-injection-attacks-on-llms/) [Blog] — Comprehensive guide to LLM attacks and defenses.
 
 ---
