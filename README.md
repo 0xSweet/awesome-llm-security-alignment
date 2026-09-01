@@ -3,7 +3,7 @@
 A curated list of research papers, experiments, and resources related to **LLM security and alignment** — including prompt injection, jailbreaks, hallucinations, defenses, governance, and ethical frameworks.  
 Organized for reference and study.
 
-**Last Updated:** 2026-06-03
+**Last Updated:** 2026-09-01
 
 ---
 
@@ -136,7 +136,10 @@ Organized for reference and study.
 
 - 🛡️ [EU AI Act](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689) [EU 2024] — Core EU regulation; includes requirements for General-Purpose AI (GPAI), risk classifications, transparency, and safety conditions for “high risk” systems.  
 - 🛡️ [NIST AI RMF (2023)](https://www.nist.gov/itl/ai-risk-management-framework) — US voluntary framework for identifying, assessing, and managing AI risks over the lifecycle; includes a Generative AI Profile published in mid-2024.  
-- 🛡️ [OWASP Top 10 for LLMs](https://genai.owasp.org/llm-top-10/) — Industry standard list of major security threats specific to large language models.  
+- 🛡️ [OWASP Top 10 for LLMs](https://genai.owasp.org/llm-top-10/) — Industry standard list of major security threats specific to large language models.
+- 🛡️ [MITRE ATLAS](https://atlas.mitre.org/) [Threat Framework] — Living knowledge base of adversary tactics, techniques, mitigations, and case studies for predictive, generative, and agentic AI systems.
+- 🛡️ [OWASP Large Language Model Security Verification Standard (LLMSVS)](https://owasp.org/www-project-llm-verification-standard/) [OWASP Standard] — Testable security requirements for designing, building, auditing, and verifying LLM-powered applications.
+- 🛡️ [NIST AI 600-1: Generative AI Profile](https://doi.org/10.6028/NIST.AI.600-1) [NIST AI 600-1] — Companion to the AI RMF defining risks and recommended risk-management actions specific to generative AI.
 
 *Note: Regulatory / policy docs evolve fast — always check latest versions or drafts from official sources.*
 
@@ -153,11 +156,15 @@ Organized for reference and study.
 ## Tools & Datasets
 
 - 📊 [sinanw/llm-security-prompt-injection](https://github.com/sinanw/llm-security-prompt-injection) [GitHub] — Dataset & experiments on prompt safety.
-- 📊 [Open LLM Security Benchmark (NetSPI)](https://github.com/NetSPI/Open-LLM-Security-Benchmark?utm_source=chatgpt.com) — Benchmark framework evaluating both security (e.g. jailbreak resistance) and usability trade-offs in LLMs.
+- 📊 [Open LLM Security Benchmark (NetSPI)](https://github.com/NetSPI/Open-LLM-Security-Benchmark) — Benchmark framework evaluating both security (e.g. jailbreak resistance) and usability trade-offs in LLMs.
 - 🛡️ [Microsoft Presidio](https://github.com/microsoft/presidio) [GitHub] — Toolkit for PII detection and anonymization.
 - 🛡️ [OpenAI Moderation API](https://platform.openai.com/docs/guides/moderation) [Docs] — Content moderation endpoint and examples.
 - 🧪 [DefensiveToken Implementation](https://github.com/Sizhe-Chen/DefensiveToken) [GitHub] — Code for defensive token injection method.
 - 🛡️ [PromptTrace](https://prompttrace.airedlab.com/) [Web Platform] — Interactive AI security training with 7 attack labs, 15-level gauntlet, and real-time context trace for practicing prompt injection and defense bypass against real LLMs.
+- 🛡️ [NVIDIA garak](https://github.com/NVIDIA/garak) [GitHub] — Open-source LLM vulnerability scanner covering prompt injection, jailbreaks, data leakage, hallucination, toxicity, and other failure modes.
+- 🛡️ [Microsoft PyRIT](https://github.com/microsoft/PyRIT) [GitHub] — Open-source framework for automated and human-led red teaming of generative AI systems, supporting multi-turn attacks, converters, targets, and scorers.
+- 📊 [AgentDojo](https://agentdojo.spylab.ai/) [NeurIPS 2024] — Dynamic benchmark for evaluating prompt-injection attacks and defenses in tool-using LLM agents across realistic tasks and security test cases.
+- 📊 [Meta CyberSecEval](https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks) [GitHub] — Open cybersecurity safety evaluation suite covering insecure code generation, offensive cyber assistance, prompt injection, and related LLM risks.
 
 ---
 
