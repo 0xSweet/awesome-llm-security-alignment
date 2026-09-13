@@ -34,6 +34,7 @@ Organized for reference and study.
 - [Hallucinations & Reliability](#hallucinations--reliability)
 - [Defense Strategies](#defense-strategies)
 - [Alignment & Safety](#alignment--safety)
+- [Agentic Safety & Autonomous Systems](#agentic-safety--autonomous-systems)
 - [Mechanistic Interpretability](#mechanistic-interpretability)
 - [Governance & Policy](#governance--policy)
 - [Surveys & Overviews](#surveys--overviews)
@@ -113,7 +114,31 @@ Organized for reference and study.
 - [How Effective is Constitutional AI in Small LLMs?](https://arxiv.org/abs/2503.17365) [arXiv:2503.17365] — Tests the scalability and effectiveness of Anthropic’s Constitutional AI in smaller models.
 - [Explicit Vulnerability Generation with LLMs](https://arxiv.org/abs/2507.10054) [arXiv:2507.10054] — Examines how LLMs can produce insecure code when prompted adversarially.
 - [Model Spec vs. Model Behavior](https://alignment.anthropic.com/2025/stress-testing-model-specs/) [Report / Anthropic, 2025] — Explores discrepancies between formal model specifications and emergent behaviors.
-- [Agentic Misalignment](https://www.anthropic.com/research/agentic-misalignment) [Report / Anthropic, 2025] — Documents cases where Claude pursues misaligned goals in agentic settings; basis for the blackmail evaluation case study.
+  
+---
+
+## Agentic Safety & Autonomous Systems
+
+### Abstention & Knowing When Not to Act
+
+- 🧪 [AgentAbstain: Do LLM Agents Know When Not to Act?](https://arxiv.org/abs/2607.10059) [arXiv:2607.10059] — Evaluates whether tool-using agents can recognize when they should abstain rather than act under uncertainty, conflicting constraints, or unavailable prerequisites.
+
+### Autonomous Agent Safety Benchmarks
+
+- 📊 [BeSafe-Bench](https://arxiv.org/abs/2603.25747) [arXiv:2603.25747] — Behavioral safety benchmark spanning web, mobile, and embodied agents, measuring whether agents can complete tasks while respecting safety constraints.
+
+### Agent Monitoring & Runtime Safeguards
+
+- 🛡️ [ChatGPT Agent System Card](https://openai.com/index/chatgpt-agent-system-card/) [Report] — Safety evaluations and runtime safeguards for browser-, terminal-, and connector-enabled autonomous agents.
+
+- 🧾 [Toward Safe LLM Agents: A Survey of Specification, Verification, and Enforcement](https://arxiv.org/abs/2608.14590) [arXiv:2608.14590] — Survey of agent safety through specification, verification, monitoring, and enforcement mechanisms.
+
+### Agentic Alignment & Misalignment
+
+- 🧪 [Agentic Misalignment](https://www.anthropic.com/research/agentic-misalignment) [Report / Anthropic] — Studies misaligned behavior emerging from autonomous agents operating under conflicting goals and environmental pressures.
+
+- 🧪 [A3: Automated Alignment Agent](https://alignment.anthropic.com/2026/automated-alignment-agent/) [Report / Anthropic, 2026] — Agentic framework for automatically discovering and mitigating model alignment failures.
+
 ---
 
 ## Mechanistic Interpretability
