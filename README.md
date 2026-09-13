@@ -3,7 +3,7 @@
 A curated list of research papers, experiments, and resources related to **LLM security and alignment** — including prompt injection, jailbreaks, hallucinations, defenses, governance, and ethical frameworks.  
 Organized for reference and study.
 
-**Last Updated:** 2026-09-01
+**Last Updated:** 2026-09-12
 
 ---
 
@@ -184,28 +184,49 @@ Organized for reference and study.
 ## Model Cards (Major AI Labs)
 
 ### Anthropic
-- 🧪 [Claude 3 Family](https://www.anthropic.com/claude-3-model-card) [Report] — Safety evaluations and model details.
-- 🧪 Claude 4 (Opus/Sonnet) — Available via Claude.ai interface.
+
+- 🧪 [Anthropic System Cards](https://www.anthropic.com/system-cards) [Collection] — Official system cards and safety evaluations for Claude model families.
+- 🧪 Claude 4 Family (Opus / Sonnet) [Report] — Frontier reasoning and agentic model safety evaluations.
 
 ### OpenAI
+
+- 🛡️ [GPT-5.5 System Card](https://openai.com/index/gpt-5-5-system-card/) [Report] — Safety evaluations for GPT-5.5 and GPT-5.5 Pro, including tool use, cyber, and advanced capability assessments.
+- 🛡️ [GPT-5.4 Thinking System Card](https://openai.com/index/gpt-5-4-thinking-system-card/) [Report] — Reasoning-model safety evaluations, including cybersecurity safeguards.
+- 🛡️ [GPT-5 System Card](https://openai.com/index/gpt-5-system-card/) [Report] — Safety evaluations for the GPT-5 unified model and reasoning system.
 - 🛡️ [GPT-4o System Card](https://openai.com/index/gpt-4o-system-card/) [Report] — Multimodal safety considerations.
-- 🛡️ [o1 System Card](https://openai.com/index/openai-o1-system-card/) [Report] — Reasoning model safety evaluations.
 
 ### Google DeepMind
-- 🛡️ [Gemini Family Model Cards](https://ai.google.dev/gemma/docs) [Report] — Safety and capability assessments.
+
+- 🛡️ [Gemini Model Cards](https://deepmind.google/models/model-cards/) [Collection] — Official model cards covering Gemini, Gemma, robotics, and generative-media models.
+- 🛡️ [Gemini 3.8 Flash Model Card](https://deepmind.google/models/model-cards/gemini-3-8-flash/) [Report] — Agentic and software-engineering model safety and capability evaluations.
+- 🛡️ [Gemini 3.1 Pro Model Card](https://deepmind.google/models/model-cards/gemini-3-1-pro/) [Report] — Frontier multimodal reasoning, safety, and capability assessments.
+- 🧪 Gemini 2.5 Computer Use Model Card [Report] — Safety evaluations for browser and computer-use agents.
 
 ### Meta
-- 🛡️ [Llama 3 Model Card](https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md) [Report] — Open-source model safety details.
+
+- 🛡️ Llama 4 Family [Model Card] — Open-weight multimodal model capabilities, limitations, and safety information.
+- 🛡️ Llama Guard 4 [Safety Model] — Safety classifier and content-policy enforcement model.
 
 ### Mistral AI
-- 🛡️ [Mistral Models Documentation](https://docs.mistral.ai/) [Report] — Model capabilities and safety measures.
+
+- 🛡️ [Mistral Models Documentation](https://docs.mistral.ai/models) [Collection] — Current model lineup, capabilities, licensing, and deployment details.
+- 🧪 Mistral Small 4 [Model] — Hybrid reasoning, coding, and agentic model.
+- 🧪 Mistral Medium 3.5 [Model] — Frontier multimodal model optimized for agentic and coding use cases.
 
 ### xAI
 
-- 🧪 [Grok 4 Model Card (PDF)](https://data.x.ai/2025-08-20-grok-4-model-card.pdf) [Report] — Latest multimodal reasoning model; includes tool-use and chain-of-thought capabilities.
-- 🧪 [Grok 4 Fast Model Card (PDF)](https://data.x.ai/2025-09-19-grok-4-fast-model-card.pdf) [Report] — Low-latency, efficient variant of Grok 4.
-- 🛡️ [Grok 2 Model Card](https://www.prompthub.us/models/grok-2) [Report] — Multi-language model with tool-calling capabilities.
+- 🧪 [Grok 4 Model Card (PDF)](https://data.x.ai/2025-08-20-grok-4-model-card.pdf) [Report] — Multimodal reasoning, tool use, and safety evaluations.
+- 🧪 [Grok 4 Fast Model Card (PDF)](https://data.x.ai/2025-09-19-grok-4-fast-model-card.pdf) [Report] — Low-latency agentic variant of Grok 4.
+- 🧪 [Grok 4.1](https://x.ai/news/grok-4-1) [Report] — Updated alignment, personality, and real-world interaction behavior.
 
+### DeepSeek
+
+- 🧪 [DeepSeek-V3.2 Model Card](https://huggingface.co/deepseek-ai/DeepSeek-V3.2) [Model Card] — Open-weight frontier model with reasoning and tool-use capabilities.
+
+### Alibaba / Qwen
+
+- 🧪 Qwen3 Family [Model Card] — Open-weight reasoning and agentic model family.
+- 🛡️ Qwen3Guard [Safety Model] — Safety classification and moderation model for Qwen deployments.
 ---
 
 ## Other References
