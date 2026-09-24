@@ -190,6 +190,7 @@ Organized for reference and study.
 - 🛡️ [Microsoft PyRIT](https://github.com/microsoft/PyRIT) [GitHub] — Open-source framework for automated and human-led red teaming of generative AI systems, supporting multi-turn attacks, converters, targets, and scorers.
 - 📊 [AgentDojo](https://agentdojo.spylab.ai/) [NeurIPS 2024] — Dynamic benchmark for evaluating prompt-injection attacks and defenses in tool-using LLM agents across realistic tasks and security test cases.
 - 📊 [Meta CyberSecEval](https://github.com/meta-llama/PurpleLlama/tree/main/CybersecurityBenchmarks) [GitHub] — Open cybersecurity safety evaluation suite covering insecure code generation, offensive cyber assistance, prompt injection, and related LLM risks.
+- 📊 [Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) [GitHub] — Open dataset of real-world AI agent security incidents (indirect prompt injection, agent supply chain, sandbox escapes, agent-framework CVEs, agent-specific policy), each with a primary source and flags for confirmed victim and AI involvement; JSON/CSV exports.
 
 ---
 
