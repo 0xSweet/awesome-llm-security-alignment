@@ -85,6 +85,8 @@ Organized for reference and study.
 
 ## Defense Strategies
 
+- 🧪 [DAI: A Domain-Specific LLM with Model-Excluded Authority, Capability-Disjoint Verification, and Recomputable Receipts](https://doi.org/10.5281/zenodo.23089652) [Zenodo preprint 2026] — Hiago Kin Levi; describes a domain-specific LLM with learned outputs excluded from action authority, disjoint-capability verification, and recomputable receipts; not a universal prompt-injection defense or comparative benchmark result.
+- 🧪 [Autonomous Defensive AI: An Envelope-and-Evidence Framework for Governed LLMs Acting on Production Infrastructure](https://doi.org/10.5281/zenodo.23089594) [Zenodo preprint 2026] — Hiago Kin Levi; companion framework for explicit autonomy envelopes, action contracts, bounded execution, and evidence-based review; formal properties depend on the stated assumptions.
 - 🧪 [Defending Against Prompt Injection With a Few DefensiveTokens](https://arxiv.org/abs/2507.07974) [arXiv:2507.07974] — Inserts defensive tokens at inference to block attacks.
 - 🛡️ [tldrsec/prompt-injection-defenses](https://github.com/tldrsec/prompt-injection-defenses) [GitHub] — Curated list of practical defense strategies.
 - 🛡️ [Llama Guard](https://arxiv.org/abs/2312.06674) [arXiv:2312.06674] — Meta's safety classifier for filtering harmful outputs.
